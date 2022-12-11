@@ -1,0 +1,105 @@
+html { 
+    background: url(images/port_bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  
+*,
+* ::before,
+* ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'lato';
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+a{    
+    text-decoration: none;    
+}
+ul{    
+    list-style: none;    
+}
+p{  
+    font-size: 1.6rem;  
+}
+
+img{    
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+section{
+    padding: 20rem 0;
+}
+
+
+
+
+
+
+.blue-container{
+    width: 100%;
+    background: #120e1c;
+}
+
+
+
+.container-row-pro{
+    display: flex;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    margin-top: 0rem;
+  }
+  
+ 
+
+  
+  .column-card {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: grey;
+    float: right;
+    width: 28%;
+    padding: 0 20px;
+    outline: none;
+
+  }
+
+
+
+  .column-card imgg{
+      width: max-content;
+      
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row-card {
+      margin: 0 -5px;
+      margin-top: 10rem;
+  }
+  
+  /* Clear floats after the columns */
+  .row-card:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    height: 50rem;
+    width: 30rem;
+  }
