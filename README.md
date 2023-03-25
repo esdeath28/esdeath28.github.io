@@ -1,3 +1,5 @@
 <div>
-  <a href="https://esdeath28.github.io/"><h1>esdeath28.github.io</h1></a>
+  <h1>
+    <a href="https://esdeath28.github.io/">esdeath28.github.io</a>
+  </h1>
 </div>
