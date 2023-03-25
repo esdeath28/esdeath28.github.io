@@ -1,1 +1,3 @@
-<a href="https://esdeath28.github.io/">esdeath28.github.io</a>
+<div>
+  <a href="https://esdeath28.github.io/"><h1>esdeath28.github.io</h1></a>
+</div>
